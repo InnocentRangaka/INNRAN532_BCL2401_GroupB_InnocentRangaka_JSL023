@@ -4,7 +4,7 @@
 
 Loom Recording Link: [Insert Link]
 
-## Example #: 1 
+## Example #: 1
 
 The code uses the imperative approach, simulating a process step-by-step to cooking a steak. It focuses on how to cook steak in step-by-step instructions, from preheating the grill to serving the steak.
 
