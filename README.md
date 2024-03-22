@@ -11,9 +11,13 @@ The code uses the imperative approach, simulating a process step-by-step to cook
 The let grillTemperature and steakTemperature variables are declared with values of 0, allowing them to adjust during the cooking process and hold the current temperature of the grill and the steak, respectively.
 
 The following steps break down the process:
+
 Step 1 explicitly assigns a value (204°C) to the grillTemperature variable. 
+
 Step 2 assigns the only seasoning type to both sides of the steak to a constant seasoning variable. 
-Step 3 uses a while loop to repeat the cooking process until the steakTemperature reaches the desiredDoneness. The while loop condition checks if the passed steak temperature argument is less than the passed steak doneness argument. The loop likely monitors and adjusts the grill temperature or cooking time and updates the steak temperature to reflect the progress until the steakTemperature once is no less than the desiredDoneness celsius to cook the steak to medium-rare.
+
+Step 3 uses a while loop to repeat the cooking process until the steakTemperature reaches the desiredDoneness. The while loop condition uses steakTemperature and grillTemperature parameters to checks if the steak temperature argument is less than the passed steak doneness argument. The loop likely monitors and adjusts the grill temperature or cooking time and updates the steak temperature to reflect the progress until the steakTemperature once is no less than the desiredDoneness celsius to cook the steak to medium-rare.
+
 Step 4 uses an if/else statement to check if the steakTemperature has reached the desired temperature level. If steakTemperature is greater than or equal to desiredDoneness, the function returns a message indicating the steak is ready or returns a message indicating the steak needs more cooking.
 
 This imperative approach details the "how" to cook a steak and provides explicit instructions for each step. The while loop and if/else statement control the execution flow based on the current temperature state, modifying grillTemperature and steakTemperature variables throughout the process to track the changing level.
