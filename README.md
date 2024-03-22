@@ -1,4 +1,6 @@
-# [JSL03] Project Submission: Which one is which? Declarative or Imperative?!
+#### INNRAN532_BCL2401_GroupB_InnocentRangaka_JSL03
+
+# JSL03 Project Submission: Declarative or Imperative?!
 
 Loom Recording Link: [Insert Link]
 
